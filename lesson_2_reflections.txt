@@ -1,0 +1,9 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: A .git directory is created. Any changes to any of the contents in that 
+directory are elligible for being tracked by git. The history is kept inside the
+.git directory.
+
+Q: How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+A: It is a medium so that you can "stage" the changes you want to add before you
+Add them to the repositry. Gives the user more control.

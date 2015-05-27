@@ -26,3 +26,9 @@ Q: What is the result of merging two branches together? Why do we represent it
 in the diagram the way we do?
 A: The result of the merge is a new commit containing the changes made to the 
 files, combined; and that's why we show it that way.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+A: Pro: If there is no conflict why do it manually?
+   Con: Automatic merging all the time can go wrong and not reflect author's 
+   opinion.

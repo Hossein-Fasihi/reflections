@@ -7,3 +7,22 @@ Q: How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 A: It is a medium so that you can "stage" the changes you want to add before you
 Add them to the repositry. Gives the user more control.
+
+Q: How can you use the staging area to make sure you have one commit per logical
+change?
+A: Find the modifications that have logical relationship. Only stage those.
+
+Q: What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+A: * Trying a new idea without changing the original development path.
+   * Working on another version without corrupting the stable version.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: They show me the structure of commit database; i.e. the relationship between
+commits and branches. Which commits belong to which branch and which commits are
+shared among them.
+
+Q: What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+A: The result of the merge is a new commit containing the changes made to the 
+files, combined; and that's why we show it that way.

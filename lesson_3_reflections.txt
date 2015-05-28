@@ -22,3 +22,10 @@ A: Other than other SCM solutions. A shared file system on a remote server...
 probably. Then all sorts of things could go wrong. Confict could go unhandled, 
 one could write over the other. Keeping versions, branches and all that jazz 
 would be impossible.
+
+Q: When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+A: When the differenct I'm making in a different context than the original flow 
+of development. Or when it could be the case. e.g. When collaborating, one would
+be better off creating his/her ideas into new branches and ask for others
+opinion before merging into master.

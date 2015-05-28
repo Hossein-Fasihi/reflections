@@ -15,3 +15,10 @@ Branches are different paths in commit graph in a repository.
 Q: What is the benefit of having a copy of the last known state of the remote 
 stored locally?
 A: It makes it possible to know when we have diverged from the remote.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+A: Other than other SCM solutions. A shared file system on a remote server... 
+probably. Then all sorts of things could go wrong. Confict could go unhandled, 
+one could write over the other. Keeping versions, branches and all that jazz 
+would be impossible.

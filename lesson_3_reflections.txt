@@ -11,3 +11,7 @@ use one instead of another?
 A: Forks are clones in github. They are traced and monitored by the github app. 
 Clones are copies of git repositories into new locations.
 Branches are different paths in commit graph in a repository.
+
+Q: What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+A: It makes it possible to know when we have diverged from the remote.
